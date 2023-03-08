@@ -1,0 +1,154 @@
+
+body{
+    background-image:url(./img/web.jpg);
+    background-repeat: no-repeat;
+    background-size: 4000px;
+    color: white;
+  
+   
+}
+
+nav{
+   display: flex;
+   justify-content: center;
+   font-size: larger;
+   width: 400px; 
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgba(0, 0, 0, 0.295);
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+
+}
+.navbar li a:hover{
+    color: rgb(195, 179, 179);
+    text-decoration: underline;
+    background-color: red;
+  
+}
+.navbar li a.active{
+    color: rgb(195, 179, 179);
+    text-decoration: underline;
+
+
+}
+ul a{
+    list-style-type: none ;
+}
+nav li{
+    display: inline;
+}
+table th{
+    color: white;
+    background: rgb(190, 108, 108);
+}
+table tr{
+    color: white;
+    background: rgba(74, 74, 214, 0.604);
+}
+table{
+    border-color: black;
+    border-radius: 4px;
+}
+ul{
+    list-style-type: square;
+}
+.registration{
+    background-color:rgba(0, 0, 0, 0.673);
+    padding-top:10px;
+    padding-bottom:3px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    width: 300px; height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    margin:2px 40px;
+    width: 95px;   
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+ 
+}
+.user{
+    padding: 3px;
+    border: none;
+}
+.user{
+   color: white;
+   background-color: black;
+}
+
+.social ul{
+    list-style-type: none;
+    background-color: rgb(204, 51, 25);
+    padding: 13.5px;
+}
+.social li {
+    display: inline;
+}
+.social{
+    
+    display: flex;
+    margin-top: 1px;
+   justify-content: center;
+    align-content: end ;
+   
+}
+.social li a:hover{
+    background-color: white;
+    color: black;
+    /* padding: 7px; */
+}
+#footer{
+    margin-top: 63px;
+}
+.bio{
+    background-color: rgba(255, 0, 0, 0.745);
+    padding: 3px;
+  
+}
+.skill{
+    background-color: rgba(0, 128, 0, 0.59);
+    padding: 2px;
+    margin-top: 4px;
+   
+}
+.skils_table{
+    background-color: rgba(165, 42, 42, 0.342);
+   padding: 3px;
+   margin-top: 7px;
+   
+
+}
+.hobbies{
+    background-color: rgba(0, 0, 0, 0.495);
+   padding: 3px;
+   margin-top: 4px;
+
+   
+}
+.aboutme{
+    background-color: rgba(0, 0, 0, 0.486);
+   margin-top: 14px;
+}
+#ab{
+    margin-top: 90px;
+}
+.profile{
+    width: 100px;
+   
+}
+h3,caption,.tx{
+    text-decoration: underline;
+    text-transform:uppercase;
+}
